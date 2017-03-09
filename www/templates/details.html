@@ -1,0 +1,18 @@
+<ion-view title="Details" id="page6" style="background-color:#080808;" class="font">
+  <!-- <ion-content padding="false" class=" manual-remove-top-padding has-header">
+    <a id="details-button6" style="text-align:left;" class="button button-light button-large button-full icon-left ion-ios-location">Location</a>
+    <a id="details-button7" style="text-align:left;" class="button button-light button-large button-full icon-left ion-android-home">Temples</a>
+    <a id="details-button9" style="text-align:left;" class="button button-light button-large button-full icon-left ion-ios-people">Cultures</a>
+    <a id="details-button10" style="text-align:left;" class="button button-light button-large button-full icon-left ion-android-bicycle">Adventure</a>
+    <a id="details-button15" style="text-align:left;" class="button button-light button-large button-full icon-left ion-hammer">Trekking &amp; Climbing Routes</a>
+    <a id="details-button16" style="text-align:left;" class="button button-light button-large button-full icon-left ion-key">Accomodation and stay</a>
+    <a id="details-button17" style="text-align:left;" class="button button-light button-large button-full icon-left ion-android-contacts">Travel Partners</a>
+  </ion-content> -->
+  <ion-content padding="false" class=" manual-remove-top-padding has-header">
+    <ion-list>
+  <ion-item ng-repeat="x in details">
+    <a id="{{x.event_id}}"  style="text-align:left;text-transform:capitalize" class="button button-light button-large button-full icon-left {{x.icon_name}} compact" ng-click="test({{'x.event_id'}})">{{x.name}}</a>
+  </ion-item>
+</ion-list>
+    </ion-content>
+</ion-view>

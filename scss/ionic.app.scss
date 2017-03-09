@@ -1,0 +1,19 @@
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+@import url('https: //fonts.googleapis.com/css?family=Lobster');
+.font {
+	font-family: lobster;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.br-half {
+	border-radius: 50%;
+}
+
+.br-quarter {
+	border-radius: 25%;
+}
+
